@@ -13,5 +13,3 @@ forecast = weather.Weather(api_key, lat, lon)
 message = message.Message(account_sid, auth_token)
 
 message.create_message(forecast.get_forecast())
-
-print(account_sid)
